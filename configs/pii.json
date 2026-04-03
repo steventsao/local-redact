@@ -1,8 +1,0 @@
-{
-  "name": "pii",
-  "description": "Full PII: names (NER), SSN, phone, email, tax IDs, financial identifiers",
-  "presidioTypes": ["PERSON", "US_SSN", "PHONE_NUMBER", "EMAIL_ADDRESS", "US_ITIN", "CREDIT_CARD", "US_BANK_NUMBER", "US_PASSPORT", "US_DRIVER_LICENSE"],
-  "presidioMinScore": 0.4,
-  "openredactionTypes": ["SSN", "EMAIL", "PHONE_UK", "PHONE_US", "PHONE_INTL", "CREDIT_CARD", "IBAN", "EIN", "ITIN", "BANK_ACCOUNT", "ROUTING_NUMBER"],
-  "openredactionPatterns": ["PHONE", "SSN", "TAX"]
-}
