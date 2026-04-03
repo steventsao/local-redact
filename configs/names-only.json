@@ -1,0 +1,13 @@
+{
+  "name": "names-only",
+  "description": "Redact personal names only (regex heuristic — no NER model)",
+  "types": [],
+  "typePatterns": [],
+  "customPatterns": [
+    {
+      "label": "PERSON_NAME",
+      "description": "Capitalized multi-word names (2-4 words)",
+      "regex": "\\b[A-Z][a-z]+(?:\\s+[A-Z][a-z]+){1,3}\\b"
+    }
+  ]
+}

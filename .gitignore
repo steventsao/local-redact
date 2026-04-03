@@ -1,0 +1,7 @@
+node_modules/
+output/
+raw/
+*.pdf
+*.pyc
+__pycache__/
+.env
